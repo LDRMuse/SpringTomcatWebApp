@@ -38,6 +38,7 @@ public class StudentController {
         System.out.println("Student:" + theStudent.getFirstName());
         System.out.println("Student:" + theStudent.getLastName());
         System.out.println("Country:" + theStudent.getCountry());
+        System.out.println("Language:" + theStudent.getFavoriteLanguage());
 
         return "student-process-form";
     }

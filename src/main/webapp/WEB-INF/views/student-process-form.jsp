@@ -18,6 +18,9 @@ Confirmed: ${student.firstName} ${student.lastName}
 Country: ${student.country}
 <br>
 <br>
+Favorite Coding Language: ${student.favoriteLanguage}
+<br>
+<br>
 <br>
 <a href="/">Go to Home Page</a>
 

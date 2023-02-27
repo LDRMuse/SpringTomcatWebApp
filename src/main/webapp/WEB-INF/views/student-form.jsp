@@ -1,10 +1,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-
-
 <DOCTYPE! html>
 
 <html>
-
 <head>
 
 <title> Student Registration Form</title>
@@ -23,19 +20,22 @@
       <br><br>
 
      Country:
-    <form:select path="country">
-    <form:options items="${theCountryOptions}" />
-    </form:select>
-     <br><br><br>
+       <form:select path="country">
+       <form:options items="${theCountryOptions}" />
+       </form:select>
+
+      <br><br>
+
+     Favorite Coding Language:
+     <br>
+        <form:radiobuttons path="favoriteLanguage" items="${student.favoriteLanguageOptions}"  />
+     <br><br>
 
       <input type="submit" value="Submit"/>
-
 
     </form:form>
 
 </body>
-
-
 
 
 </html>
