@@ -3,6 +3,15 @@
 <html>
 
 <head>
+
+ <link rel="stylesheet" type="text/css"
+
+            href="${pageContext.request.contextPath}/resources/css/greeting-form.css">
+
+                <script src="${pageContext.request.contextPath}/resources/js/greeting-form.js"></script>
+
+
+
 <title> Greeting - Input Form</title>
 </head>
 
