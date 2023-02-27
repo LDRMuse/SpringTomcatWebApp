@@ -18,7 +18,7 @@ public class StudentController {
     @Value("#{countryOptions}")
     private Map<String, String> countryOptions;
 
-    @RequestMapping("showForm")
+    @RequestMapping("/showForm")
     public String showForm(Model model) {
 
         // create new Student obj
