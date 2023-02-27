@@ -6,6 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.util.Arrays;
 import java.util.Map;
 
 
@@ -39,6 +41,7 @@ public class StudentController {
         System.out.println("Student:" + theStudent.getLastName());
         System.out.println("Country:" + theStudent.getCountry());
         System.out.println("Language:" + theStudent.getFavoriteLanguage());
+        System.out.println("Operating System(s):" + Arrays.toString(theStudent.getOperatingSystems()));
 
         return "student-process-form";
     }
