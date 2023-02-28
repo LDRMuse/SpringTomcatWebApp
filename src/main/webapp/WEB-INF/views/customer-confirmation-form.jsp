@@ -21,6 +21,10 @@ Postal Code: ${customer.postalCode}
 
 <br>
 
+Postal Code: ${customer.courseCode}
+
+<br>
+
 <a href="/">Go to Home Page</a>
 
 </body>
