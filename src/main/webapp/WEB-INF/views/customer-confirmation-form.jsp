@@ -11,6 +11,15 @@
 <body>
 <h2>The customer is confirmed: ${customer.firstName} ${customer.lastName}</h2>
 
+<br>
+
+You have ${customer.freePasses} free passes.
+
+<br>
+
+Postal Code: ${customer.postalCode}
+
+<br>
 
 <a href="/">Go to Home Page</a>
 
